@@ -1,0 +1,52 @@
+body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    display: flex;
+    /* overflow: hidden; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('C:/Users/Owner/Desktop/CS/Techlent/MLBootcamp_Summer2022/Homework/KeystoneProject/Flask/HM.jpg'); */
+    /* background-image: url('//HM.jpg'); */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+h1,h2 {
+    color: blue;
+}
+img {
+    width: 10%;
+    height: 10%;
+}
+.container {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row:before, .row:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+.col-md-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  width: 33.33333333%;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+
+

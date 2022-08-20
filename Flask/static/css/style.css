@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1, h2, h3 {
+    color: blue;
+}
+img {
+    width: 10%;
+    height: 10%;
+}
+.container {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
